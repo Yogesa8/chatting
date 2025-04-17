@@ -21,6 +21,20 @@ git checkout main
 git pull origin main
 
 
+echo "# chatting" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Yogesa8/chatting.git
+git push -u origin main
+
+
+git remote add origin https://github.com/Yogesa8/chatting.git
+git branch -M main
+git push -u origin main
+
+
 
 
 

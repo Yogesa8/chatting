@@ -1,0 +1,32 @@
+1.Clone the Repo (ek baar dono ko karna hoga):
+git clone https://github.com/username/repo-name.git
+cd repo-name
+
+
+2.Create a Branch (har banda apna branch banaye):
+git checkout -b my-feature-branch
+
+
+3.Kaam karo apne branch mein (code changes etc.),Changes Stage karo and Commit:
+git add .
+git commit -m "Added new feature"
+
+
+4.Push karo apne branch ko GitHub pe:
+git push origin my-feature-branch
+
+
+5.Hamesha latest changes pull karo before starting new work:
+git checkout main
+git pull origin main
+
+
+
+
+
+Step 1: Landing page
+step 2: Login page with mobile, Facebook, and Google login options
+step 3: Profile update page
+step 4: Chat list page with recent conversations
+step 5: Single chat conversation page , Settings page
+step 6: Include any other common screens used in chat apps
